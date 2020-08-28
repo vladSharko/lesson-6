@@ -360,10 +360,7 @@ ul {
 		}
 		
 		.nav__title {
-			width: 10px;
-			height: 2px;
-			font-size: 0px;
-			background: #fff;
+			display: none;
 		}
 		
 		.nav__button {
@@ -371,7 +368,7 @@ ul {
 		}
 		
 		.header__title {
-			display: none;
+			margin-top: 50px;
 		}
 
 		.contact__form {
