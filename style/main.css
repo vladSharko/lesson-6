@@ -85,7 +85,6 @@ ul {
 	width: 100%;
 	background: url(../font/sea.jpeg) no-repeat center center;
 	padding-top: 17px;
-	margin: 0;
 }
 
 .header__title {
@@ -369,6 +368,10 @@ ul {
 		
 		.header__title {
 			margin-top: 50px;
+			font-size: 44px;
+			text-transform: uppercase;
+			color: #E4E4E4;
+			font-weight: 700;
 		}
 
 		.contact__form {
