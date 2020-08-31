@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media 
+	(max-width: 768px) {
+		
+/* Nav
+========================================================*/	
+		
+		.container {
+			text-align: center;
+			margin: auto 7%;
+		}
+		
+		.nav {
+			position: relative;
+			width: 30px;
+			height: 3px;
+			background-color: #fff;
+		}
+
+		.nav:after {
+			content: '';
+			position: absolute;
+			top: 6px;
+			left: 0px;
+			width: 30px;
+			height: 3px;
+			background: #fff;
+		}
+
+		.nav:before {
+			content: '';
+			position: absolute;
+			top: -6px;
+			left: 0px;
+			width: 30px;
+			height: 3px;
+			background: #fff;
+		}
+		
+		.nav__link {
+			display: none;
+		}
+
+/* Testimonial
+========================================================*/
+		
+		.testimonial__photo {
+			width: 30vw;
+			height: 30vw;
+			border-radius: 50%;
+			margin-bottom: 62px;
+		}
+		
+}
+
+@media
+	(max-width: 576px) {
+		
+/* Contact
+========================================================*/
+		
+		.contact__circle {
+			margin: 0 auto;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 90vw;
+			height: 90vw;
+			background: #fff;
+			opacity: .8;
+			border-radius: 50%
+		}
+		
+		.contact__name {
+			width: 65vw;
+			height: 6vw;
+			margin-top: 10vw;
+			margin-bottom: 10px;
+		}
+
+		.contact__email {
+			width: 65vw;
+			height: 6vw;
+			margin-bottom: 10px;
+		}
+
+		.contact__message {
+			width: 65vw;
+			height: 12vw;
+			margin-bottom: 20px;
+		}
+}
